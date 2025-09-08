@@ -657,7 +657,7 @@ type-checking = [
 
 [[package]]
 name = "hikari"
-version = "2.4.0"
+version = "2.4.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -665,9 +665,9 @@ dependencies = [
     { name = "colorlog" },
     { name = "multidict" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a4/50/dd6f2e83a1021c08617245de45ab58bc275a11c48407a8719ed146f3ce3c/hikari-2.4.0.tar.gz", hash = "sha256:d35cbd282af0b8ec501dc3d69ac8d75ea1dcc345a4b1335fa0a06e67406415ea", size = 1895946, upload-time = "2025-09-08T09:37:22.91Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/e1/c4fe33881475026b840109b48b26049122dfc1867b9454944cd3b84fbafc/hikari-2.4.1.tar.gz", hash = "sha256:fb423b90fdf26679e421af1eb04c6f5b4b3a07bc2de24f705b3468fdd6fae690", size = 1896038, upload-time = "2025-09-08T21:52:38.604Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2f/ca/5cd8f3d3c63bda1e735a55b25ff834f64129caf13edb2315ba97e99af7a3/hikari-2.4.0-py3-none-any.whl", hash = "sha256:a0a7be0d7e3ecfbbb7c98ac7a50831b7a3c8447aafee56ccd4a953815e208d1b", size = 585339, upload-time = "2025-09-08T09:37:20.541Z" },
+    { url = "https://files.pythonhosted.org/packages/5a/d8/b9abc8901c01474f3e08f46ecd2ac16dabdebe4b6918ee3a42e3591ffab8/hikari-2.4.1-py3-none-any.whl", hash = "sha256:b8c71d9dd286c11487b3c8aaee45ad69e8a9237ba6774437aac286887e4adcec", size = 585380, upload-time = "2025-09-08T21:52:36.642Z" },
 ]
 
 [[package]]
