@@ -11,4 +11,4 @@ on:
 
 jobs:
   type-check:
-    uses: FasterSpeeding/Piped/.github/workflows/type-check.yml@d19d7341ef655ff54d8c6f7bcd92c544872944a5
+    uses: FasterSpeeding/Piped/.github/workflows/type-check.yml@9c2b284f6fb48a4b294728b63fa4032b15104e00
