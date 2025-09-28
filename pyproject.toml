@@ -12,6 +12,12 @@ docs = [
     "mkdocs-material>=8.5.11",
     "mkdocs-minify-plugin>=0.6.4",
 ]
+type-checking = [
+    "fastapi>=0.92.0",
+    "hikari-tanjun>=2.11",
+    "hikari-yuyo>=1.11.0a1",
+    "tanchan>=0.2.2"
+]
 
 [tool.black]
 include = ".*pyi?$"
