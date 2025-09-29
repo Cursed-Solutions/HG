@@ -12,30 +12,11 @@ docs = [
     "mkdocs-material>=8.5.11",
     "mkdocs-minify-plugin>=0.6.4",
 ]
-freeze-locks = ["uv"]
-lint = [
-    "codespell>=2.2.2",
-    "pre-commit-hooks>=4.4",
-    "slotscheck>=0.16.1",
-    "ruff",
-]
-publish = ["flit>=3.8.0"]
-reformat = [
-    "black>=22.10.0",
-    "isort>=5.11.3",
-    "pre-commit-hooks>=4.4",
-    "pycln>=2.1.2",
-    "sort-all>=1.2",
-]
-templating = ["Jinja2>=3.1.2"]
 type-checking = [
-    "mypy>=0.991",
-    "nox",
-    "pyright>=1.1.285",
     "fastapi>=0.92.0",
     "hikari-tanjun>=2.11",
     "hikari-yuyo>=1.11.0a1",
-    "tanchan>=0.2.2",
+    "tanchan>=0.2.2"
 ]
 
 [tool.black]
@@ -64,25 +45,6 @@ warn_redundant_casts = false
 # compatibility with pyright
 allow_redefinition = true
 disable_error_code = ["no-untyped-def", "type-abstract"]
-
-[tool.piped]
-default_sessions = ["reformat", "verify-markup", "lint", "spell-check",  "type-check"]
-hide = [
-    "slot-check",
-    "build",
-    "publish",
-    "test-publish",
-    "test",
-    "test-coverage",
-    "verify-types",
-]
-mypy_allowed_to_fail = true
-mypy_targets = ["docs_src"]
-path_ignore = "docs\\/images\\/.+"
-top_level_targets = ["./docs_src", "./noxfile.py"]
-
-[tool.piped.github_actions."*"]
-default_py_ver = "3.12"
 
 [tool.pyright]
 include = ["docs_src", "noxfile.py"]
