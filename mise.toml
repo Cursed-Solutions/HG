@@ -1,7 +1,7 @@
 [tools]
 # Languages
 node = "24"
-python = "3"
+python = "3.14"
 # CLI tools
 # Black has to be installed from PyPi to support their ARM fallback to pure-python.
 "pipx:black" = "25.9.0"
