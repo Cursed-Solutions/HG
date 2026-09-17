@@ -156,7 +156,7 @@ resolution-markers = [
     "python_full_version < '3.11'",
 ]
 dependencies = [
-    { name = "typing-extensions", marker = "python_full_version < '3.11'" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/70/85/9ff6e496788aba9b74bc46c97fc77e53d4eb7b98fb416a0737e2ce5cb81e/alluka-0.3.3.tar.gz", hash = "sha256:92d254d7ab073275ce385bb1a2c4bec1c4eb26bbfd2aae7b57e5f8554cb4a037", size = 266495, upload-time = "2024-10-13T15:54:26.27Z" }
 wheels = [
@@ -171,7 +171,7 @@ resolution-markers = [
     "python_full_version >= '3.11'",
 ]
 dependencies = [
-    { name = "typing-extensions", marker = "python_full_version >= '3.11'" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/d5/ca/042a60f53edef08475b335014ccf1c29bdfcdaf7a952c1b18618d4dedddb/alluka-0.4.0.tar.gz", hash = "sha256:25ca19ffe47eab876ea1a6cc118af9b30dd075ac1bf706a248750ab38e0c5c9b", size = 218656, upload-time = "2024-11-24T19:16:07.823Z" }
 wheels = [
@@ -393,7 +393,7 @@ name = "exceptiongroup"
 version = "1.3.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "typing-extensions", marker = "python_full_version < '3.11'" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/50/79/66800aadf48771f6b62f7eb014e352e5d06856655206165d775e675a02c9/exceptiongroup-1.3.1.tar.gz", hash = "sha256:8b412432c6055b0b7d14c310000ae93352ed6754f70fa8f7c34141f91c4e3219", size = 30371, upload-time = "2025-11-21T23:01:54.787Z" }
 wheels = [
@@ -622,9 +622,9 @@ resolution-markers = [
     "python_full_version < '3.11'",
 ]
 dependencies = [
-    { name = "alluka", version = "0.3.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
-    { name = "hikari", marker = "python_full_version < '3.11'" },
-    { name = "typing-extensions", marker = "python_full_version < '3.11'" },
+    { name = "alluka", version = "0.3.3", source = { registry = "https://pypi.org/simple" } },
+    { name = "hikari" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/a0/b5/32fe9379ffe609557c8077c710268217d479595c881ca425f86e08de6da8/hikari_tanjun-2.17.6.tar.gz", hash = "sha256:cd09fed2ae51b93764e48070053fbfb2ab80ba19041e6465a5723a75bb8fe20e", size = 620288, upload-time = "2024-10-07T20:07:15.765Z" }
 wheels = [
@@ -639,9 +639,9 @@ resolution-markers = [
     "python_full_version >= '3.11'",
 ]
 dependencies = [
-    { name = "alluka", version = "0.4.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
-    { name = "hikari", marker = "python_full_version >= '3.11'" },
-    { name = "typing-extensions", marker = "python_full_version >= '3.11'" },
+    { name = "alluka", version = "0.4.0", source = { registry = "https://pypi.org/simple" } },
+    { name = "hikari" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/44/e8/3641caf8df44193582e606e0538d0b8aed08416f49b08212cbe448233e1a/hikari_tanjun-2.17.7.tar.gz", hash = "sha256:163a82866677de048e125b1226216ba20909ed6bf71a0f6e9f4a6893708cbc71", size = 581303, upload-time = "2024-11-24T19:30:39.798Z" }
 wheels = [
@@ -867,7 +867,7 @@ wheels = [
 
 [[package]]
 name = "mkdocs-material"
-version = "9.7.0"
+version = "9.7.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "babel" },
@@ -882,9 +882,9 @@ dependencies = [
     { name = "pymdown-extensions" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9c/3b/111b84cd6ff28d9e955b5f799ef217a17bc1684ac346af333e6100e413cb/mkdocs_material-9.7.0.tar.gz", hash = "sha256:602b359844e906ee402b7ed9640340cf8a474420d02d8891451733b6b02314ec", size = 4094546, upload-time = "2025-11-11T08:49:09.73Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f1/cd/c05d3a530ba7934f144fb45f7203cd236adc25c7bdcc34673d202f4b0278/mkdocs_material-9.7.7.tar.gz", hash = "sha256:c0649c065b1b0512d60aad8c10f947f8e455284475239b364b610f2deb4d0855", size = 4097923, upload-time = "2026-07-17T16:21:33.156Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/04/87/eefe8d5e764f4cf50ed91b943f8e8f96b5efd65489d8303b7a36e2e79834/mkdocs_material-9.7.0-py3-none-any.whl", hash = "sha256:da2866ea53601125ff5baa8aa06404c6e07af3c5ce3d5de95e3b52b80b442887", size = 9283770, upload-time = "2025-11-11T08:49:06.26Z" },
+    { url = "https://files.pythonhosted.org/packages/ad/21/17c1bc9e6f47c972ad66fb2ac2568f99f90f1207eeb6fc3b34d094dba7b5/mkdocs_material-9.7.7-py3-none-any.whl", hash = "sha256:8ea9bb1737a5b524a5f9dcf2e1b4ebda8274ae3008aa7845720a97083bef708f", size = 9305438, upload-time = "2026-07-17T16:21:30.017Z" },
 ]
 
 [[package]]
@@ -1524,8 +1524,8 @@ resolution-markers = [
     "python_full_version < '3.11'",
 ]
 dependencies = [
-    { name = "hikari-tanjun", version = "2.17.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
-    { name = "typing-extensions", marker = "python_full_version < '3.11'" },
+    { name = "hikari-tanjun", version = "2.17.6", source = { registry = "https://pypi.org/simple" } },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/bd/aa/4a1ce35d96ed4863d29fdf7ab274560f5e39f4df3905118ffc830d33ce1d/tanchan-0.4.2.tar.gz", hash = "sha256:bbe8388e0117afa1a20fb781f1c96ab2f828303dd8815081e703cfe9ed6abd3a", size = 286795, upload-time = "2024-10-07T21:03:13.021Z" }
 wheels = [
@@ -1540,8 +1540,8 @@ resolution-markers = [
     "python_full_version >= '3.11'",
 ]
 dependencies = [
-    { name = "hikari-tanjun", version = "2.17.7", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
-    { name = "typing-extensions", marker = "python_full_version >= '3.11'" },
+    { name = "hikari-tanjun", version = "2.17.7", source = { registry = "https://pypi.org/simple" } },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/57/ef/a4a6033e6539a5c86e24b9e2156a8a604551aca30cf295daa6a278066663/tanchan-0.4.3.tar.gz", hash = "sha256:906f6f16c297e477dc51ea38af9a3d46de1df12032ab604289c4eae58a972842", size = 245614, upload-time = "2024-11-24T20:01:35.379Z" }
 wheels = [
